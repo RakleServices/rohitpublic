@@ -1,0 +1,26 @@
+{
+    "name": "nilami_add",
+    "version": "1.0.0",
+    "description": "Nilami Adda",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "author": "Rakle IT Solutions",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.20.1",
+        "express": "^4.18.1",
+        "http": "0.0.1-security",
+        "jsonwebtoken": "^8.5.1",
+        "multer": "^1.4.5-lts.1",
+        "mysql": "^2.18.1",
+        "nodemon": "^2.0.20",
+        "otp-generator": "^4.0.0",
+        "path": "^0.12.7",
+        "socket.io": "^4.5.2",
+        "uuid": "^9.0.0",
+        "node-fetch": "^2.6.1"
+    }
+}
